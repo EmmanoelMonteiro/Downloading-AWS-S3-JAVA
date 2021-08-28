@@ -38,9 +38,9 @@ Neste arquivo você vai poder indicar o bucket que será trabalhado nos métodos
 
 ## PRINCIPAIS MÉTODOS
 
-- /testBucket <br />
+- /TestBucket <br />
 _Testa se a referencia do bucket esta funcionando para o application.properties_
-- /download <br />
+- /Download <br />
 _Realiza o download dos arquivos que estiverem dentro do bucket_
 - /ListBuckets <br />
 _Lista os buckets que existirem na conta do S3 da AWS._
