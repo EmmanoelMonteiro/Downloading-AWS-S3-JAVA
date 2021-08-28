@@ -19,14 +19,14 @@ public class ManagerBucket {
     /**
      * Testa se a referencia do bucket esta funcionando para o application.properties
      */
-    @GetMapping("/testBucket")
+    @GetMapping("/TestBucket")
     public String getBucket(){
         return bucket;
     }
     /**
      * Realiza o download dos arquivos que estiverem dentro do bucket
      */
-    @GetMapping("/download")
+    @GetMapping("/Download")
     public String downObject(){
         String list = DownObject.listarObjetos(bucket);
         return list;
