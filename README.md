@@ -31,6 +31,11 @@ Para gerenciar as dependências de operações com a AWS utilizei o Maven coloca
 			<version>1.12.54</version>
 		</dependency>
 
+Para execução do projeto se faz necessário:
+
+* Java 11 ou versões superiores.
+* Apache Maven 3.6.0
+
 ### application.properties
 Neste arquivo você vai poder indicar o bucket que será trabalhado nos métodos de operação.
 
@@ -39,7 +44,7 @@ Neste arquivo você vai poder indicar o bucket que será trabalhado nos métodos
 ## PRINCIPAIS MÉTODOS
 
 - /TestBucket <br />
-_Testa se a referencia do bucket esta funcionando para o application.properties_
+_Testa se a referência do bucket está funcionando para o application.properties_
 - /Download <br />
 _Realiza o download dos arquivos que estiverem dentro do bucket_
 - /ListBuckets <br />
