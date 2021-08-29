@@ -1,6 +1,9 @@
 # Downloading-AWS-S3-JAVA
 API que Baixa arquivos do AWS S3 com JAVA e Spring Boot
 
+Ao executar o projeto, acesso a API em:
+> http://localhost:8080/
+
 ## OBJETIVO
 Conectar ao serviço do S3 da AWS utilizando o Spring Boot com JAVA para baixar  todo o conjunto de objetos de um bucket.
 
