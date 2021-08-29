@@ -1,6 +1,14 @@
 # Downloading-AWS-S3-JAVA
 API que Baixa arquivos do AWS S3 com JAVA e Spring Boot
 
+Para execução do projeto se faz necessário:
+
+* Java 11 ou versões superiores.
+* Apache Maven 3.6.0
+
+Para executar o projeto
+> ./mvn spring-boot:run
+
 Ao executar o projeto, acesso a API em:
 > http://localhost:8080/
 
@@ -33,11 +41,6 @@ Para gerenciar as dependências de operações com a AWS utilizei o Maven coloca
 			<artifactId>aws-java-sdk</artifactId>
 			<version>1.12.54</version>
 		</dependency>
-
-Para execução do projeto se faz necessário:
-
-* Java 11 ou versões superiores.
-* Apache Maven 3.6.0
 
 ### application.properties
 Neste arquivo você vai poder indicar o bucket que será trabalhado nos métodos de operação.
