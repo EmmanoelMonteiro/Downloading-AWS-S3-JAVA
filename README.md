@@ -63,11 +63,9 @@ services.s3.bucket = teste0111
 
 ## PRINCIPAIS MÉTODOS
 
-> /TestBucket <br />
-> _Testa se a referência do bucket está funcionando para o application.properties_ <br />
-> /Download <br />
-> _Realiza o download dos arquivos que estiverem dentro do bucket_ <br />
-> /ListBuckets <br />
-> _Lista os buckets que existirem na conta do S3 da AWS._ <br />
-> /ListObjects <br />
-> _Lista os objetos que estão disponíveis no bucket._
+| MÉTODO | DESCRIÇÃO |
+| ------------- | ------------- |
+| `/TestBucket` | _Testa se a referência do bucket está funcionando para o application.properties_ |
+| `/Download` | _Realiza o download dos arquivos que estiverem dentro do bucket_ |
+| `/ListBuckets` | _Lista os buckets que existirem na conta do S3 da AWS._ |
+| `/ListObjects` | _Lista os objetos que estão disponíveis no bucket._ |
